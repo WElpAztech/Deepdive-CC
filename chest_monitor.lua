@@ -53,7 +53,7 @@ end
 ---  De while loop om elke 10 seconden de monitor te updaten
 while true do
     local monitor = peripheral.find("monitor")
-    local chest = peripheral.find("chest")
+    local chest = peripheral.find("minecraft:chest")
     print_inventory_on_monitor(chest, monitor)
 
     sleep(10)
