@@ -1,4 +1,4 @@
-response = http.get("https://github.com/WElpAztech/Deepdive-CC/blob/main/chest_monitor.lua")
+response = http.get("https://raw.githubusercontent.com/WElpAztech/Deepdive-CC/main/chest_monitor.lua")
 
 if response then
     local content = response.readAll()
